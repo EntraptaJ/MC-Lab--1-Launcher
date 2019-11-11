@@ -1,0 +1,38 @@
+{
+  "name": "mc-bot-lab1",
+  "version": "0.0.1",
+  "description": "Minecraft Bot Lab #1",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "ts-node src/index"
+  },
+  "keywords": [
+    "Minecraft",
+    "Bot"
+  ],
+  "author": "Kristian Jones <me@kristianjones.dev>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/fs-extra": "^8.0.1",
+    "@types/node": "^12.12.7",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@xmcl/auth": "^0.1.2",
+    "@xmcl/client": "0.0.8",
+    "@xmcl/forge-installer": "^0.2.12",
+    "@xmcl/launch": "0.0.26",
+    "@xmcl/minecraft-launcher-core": "^0.1.28",
+    "@xmcl/util": "^0.2.6",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^8.1.0",
+    "globby": "^10.0.1",
+    "minecraft-protocol": "^1.9.4",
+    "node-fetch": "^2.6.0",
+    "tar": "^5.0.5",
+    "yauzl": "^2.10.0"
+  }
+}

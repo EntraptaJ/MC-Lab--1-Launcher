@@ -222,5 +222,6 @@ export function install(version = 8, options = {}) {
     .then(response => response.json())
     .then(json => downloadAll(tmpdir, json.binaries[0]['binary_link']))
     .then(verify)
+    .then(move)
     .then(extract);
 }
